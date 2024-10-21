@@ -135,7 +135,7 @@ int main()
 		}
 		for (i = 0; i < (2 * mask) + 1; i++){
 			lin = ( (count/elements_per_line) + i - mask);
-			if (lin > 4){
+			if (lin > n / elements_per_line){
 				lin = -1;
 			}
 			for (j = 0; j < (2 * mask) + 1 ; j++){
